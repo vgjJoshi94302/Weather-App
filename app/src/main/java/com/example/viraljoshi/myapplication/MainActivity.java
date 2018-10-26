@@ -85,5 +85,4 @@ public class MainActivity extends AppCompatActivity {
         WeatherServiceProvider weatherServiceProvider = new WeatherServiceProvider();
         weatherServiceProvider.getWeather(lat, lng);
     }
-
 }
